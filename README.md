@@ -13,6 +13,7 @@ Uses NLP to measure how readable and how positively/negatively worded climate di
 2. Open `Research_Project_Final_Part.ipynb` in Jupyter Notebook
 3. Run the cells in order from top to bottom
 
+## Note:
 Extraction of text from the 208 annual report PDFs and takes more than two days. The extracted data is already saved in the `data/` folder, so you can skip the extraction stage and start from next cell onwards.
 
 The Loughran-McDonald Master Dictionary is not included here because it is third-party. Download it from https://sraf.nd.edu/loughranmcdonald-master-dictionary/ and put it in `data/` before running score sentiment.
@@ -27,10 +28,6 @@ The annual report PDFs are not included due to file size. They were downloaded f
 **Data files (in `data/` folder):**
 - `company_list.xlsx`: list of 52 firms with ICB sectors
 - `financial_data.xlsx` : hand-collected financial data (2021–2024)
-- `climate_text.csv` : raw extracted climate text
-- `climate_text_clean.csv` : cleaned text after excluding BAE Systems and RS Group
-- `readability.csv` : Fog and FKGL readability scores
-- `sentiment.csv` : Loughran-McDonald sentiment scores
 - `panel_data_enhanced.xlsx` : financial controls panel
 - `master_panel.xlsx` : merged panel before winsorisation
 - `master_panel_winsorized.xlsx` : final analysis dataset (199 observations)
@@ -39,3 +36,6 @@ The annual report PDFs are not included due to file size. They were downloaded f
 - `fig4_1_highcarbon_vs_lowcarbon.png`
 - `fig4_2_correlation_matrix.png`
 - `fig_readability_trend.png`
+
+## Note:
+Some intermediate CSV files (climate_text.csv, climate_text_clean.csv, readability.csv, sentiment.csv) could not be uploaded due to GitHub file size limits. The final analysis dataset (master_panel_winsorized.xlsx) is included and is sufficient to reproduce all results from the regression stage onwards.
