@@ -1,7 +1,7 @@
 # BUSI1783 Dissertation on "Readability and Sentiment of Climate-related Risk Disclosures in UK FTSE 100 Annual Reports (2021–2024)"
 
 MSc Business Analytics, University of Greenwich
-Supervisor: Dr Thamaraikani Chandrasooden
+Supervisor: Thamaraikani Chandrasooden
 
 ## What this project does:
 
