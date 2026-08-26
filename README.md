@@ -23,7 +23,8 @@ The annual report PDFs are not included due to file size. They were downloaded f
 ## Files in this repository:
 
 **Notebook:**
-- `Research_Project_Final_Part.ipynb` — full analysis pipeline
+- `Research_Project_Final_Part.ipynb` 'Research Project Final Part.pdf' and 'Research Project Final Part.html' : full analysis pipeline
+- `requirements.txt` : list of Python packages needed to run the notebook
 
 **Data files (in `data/` folder):**
 - `company_list.xlsx`: list of 52 firms with ICB sectors
