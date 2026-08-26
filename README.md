@@ -18,7 +18,7 @@ Extraction of text from the 208 annual report PDFs and takes more than two days.
 
 The Loughran-McDonald Master Dictionary is not included here because it is third-party. Download it from https://sraf.nd.edu/loughranmcdonald-master-dictionary/ and put it in `data/` before running score sentiment.
 
-The annual report PDFs are not included due to file size. They were downloaded from company investor relations websites and the FCA National Storage Mechanism.
+The annual report PDFs are not included due to file size. They were downloaded from company investor relations websites.
 
 ## Files in this repository:
 
